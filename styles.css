@@ -1,0 +1,124 @@
+@font-face {
+    font-family: ferarriFont;
+    src: url(FerroRosso.ttf)
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/matt-antonioli-A9_TySJcJuc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+}
+
+p {
+    font-size: 1.15rem;
+}
+
+h2 {
+    font-size: 2rem;
+} 
+
+.left {
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: ferarriFont;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.logo-div {
+    display: flex;
+    margin-top: 12rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
+.logo-div > img {
+    height: 5rem;
+}
+
+.right {
+    background-color:#383c44;
+    height: 100vh;
+    width: 70vw;
+    color: white;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.8);
+}
+
+.form {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.8);
+    background-color: rgb(163, 125, 2);
+    padding: 2rem 5rem;
+}
+
+.desc {
+    margin: 5rem;
+}
+
+.formrow {
+    display: flex;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomtext {
+    margin: 0 5rem;
+}
+
+input {
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: Roboto;
+    border: 1px solid #383c44;
+    color: #383c44;
+}
+
+button {
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    border: 0px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.8);
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: rgb(163, 125, 2);
+}
+
+button:active {
+    background-color: rgb(163, 125, 2);
+    transform: translateY(2px);
+}
+
+a {
+    color: rgb(163, 125, 2);
+}
